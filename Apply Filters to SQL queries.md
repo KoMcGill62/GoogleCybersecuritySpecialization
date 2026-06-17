@@ -36,3 +36,15 @@ FROM log_in_attempts
 WHERE NOT country LIKE 'MEX%';
 
 Once again starting with SELECT I move to FROM to choose which table the system needs to use. Then using WHERE and NOT in conjunction I filter Mexico from the results. I use % as a wildcard because some entries use Mex.
+
+## The goal of this lab query is to retrieve employees in marketing
+
+![image alt](https://github.com/KoMcGill62/GoogleCybersecuritySpecialization/blob/ba457386941c8b3f054d77a8361c035a0e292300/folder/SQL4.png)
+
+SELECT *
+
+FROM employees
+
+WHERE department = 'Marketing' AND office LIKE 'EAST%';
+
+I use SELECT for all data entries that apply. I use FROM to choose which table the system needs to query and WHERE with = to make sure the results were from the marketing department. I used the AND and LIKE operators in conjunction to ensure the data points were from the multiple different east building offices. I again used % as a wildcard to get any of the east buildings.
