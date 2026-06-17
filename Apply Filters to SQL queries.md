@@ -24,3 +24,15 @@ FROM log_in_attempts
 WHERE login_date = '2022-05-05' OR login_date = '2022-05-08';
 
 Again beginning with SELECT operator to select all data entries that apply I use FROM operator to choose which table for the system to use. I then use WHERE to indicate the conditions for the filter. Those conditions being the days of 2022-05-09 or 2022-05-08. I used the = operator to apply the filters of only entries on that day. I used the OR operator to make sure both days are added to the results.
+
+## The goal of this lab query is to retrieve login attempts outside of Mexico
+
+![image alt](https://github.com/KoMcGill62/GoogleCybersecuritySpecialization/blob/f07ac8b1d425a9d74248534b0f409fb4095c76d3/folder/SQL3.png)
+
+SELECT *
+
+FROM log_in_attempts
+
+WHERE NOT country LIKE 'MEX%';
+
+Once again starting with SELECT I move to FROM to choose which table the system needs to use. Then using WHERE and NOT in conjunction I filter Mexico from the results. I use % as a wildcard because some entries use Mex.
