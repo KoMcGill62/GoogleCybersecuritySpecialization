@@ -71,4 +71,4 @@ FROM employees
 
 WHERE NOT department = 'Information Technology';
 
-SELECT operator to select all data entries that apply. I then use FROM operator to choose which table to use. I use the WHERE and NOT operators in conjunction to make sure the Information Technology department was excluded from the filter results.
+SELECT operator to select all data entries that apply. I then use the FROM operator to choose which table to use. I use the WHERE and NOT operators in conjunction to make sure the Information Technology department was excluded from the filter results.
