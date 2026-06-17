@@ -48,3 +48,27 @@ FROM employees
 WHERE department = 'Marketing' AND office LIKE 'EAST%';
 
 I use SELECT for all data entries that apply. I use FROM to choose which table the system needs to query and WHERE with = to make sure the results were from the marketing department. I used the AND and LIKE operators in conjunction to ensure the data points were from the multiple different east building offices. I again used % as a wildcard to get any of the east buildings.
+
+## The goal of this lab query is to retrieve employees in finance or sales
+
+![image alt](https://github.com/KoMcGill62/GoogleCybersecuritySpecialization/blob/f041a2ae21642bf379eb39259ae284a439222663/folder/SQL5.png)
+
+SELECT *
+
+FROM employees
+
+WHERE department = 'Finance' OR department = 'Sales';
+
+SELECT operator to select all data entries that apply. I then use the FROM operator to choose which table for the system to use. I then use the WHERE operator with the = operator to make sure the results were from the finance department. I then use the OR operator to include the sales department in my filter
+
+## The goal of this lab query is to retrieve employees not in IT
+
+![image alt](https://github.com/KoMcGill62/GoogleCybersecuritySpecialization/blob/f041a2ae21642bf379eb39259ae284a439222663/folder/SQL6.png)
+
+SELECT *
+
+FROM employees
+
+WHERE NOT department = 'Information Technology';
+
+SELECT operator to select all data entries that apply. I then use FROM operator to choose which table to use. I use the WHERE and NOT operators in conjunction to make sure the Information Technology department was excluded from the filter results.
