@@ -2,4 +2,4 @@ This is a brief summary of what the project taught.
 
 ![image alt](https://github.com/KoMcGill62/GoogleCybersecuritySpecialization/blob/0e1d78e4bc79a3f88b2acbff8fc5f458ce745d34/Apply%20filters%20to%20SQL%20queries.png)
 
-![image alt](apply filters to SQL queries.png)
+![image alt](Apply filters to SQL queries.png)
