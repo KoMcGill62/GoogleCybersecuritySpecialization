@@ -14,6 +14,6 @@ The second line is just another variable with a list of necessary IP's to comple
 ## The goal here is to read the file contents
 <img width="512" height="72" alt="image" src="https://github.com/user-attachments/assets/b3b8d756-0470-454a-be55-49ae9b5a6e12" />
 
-with open(import_file, "r"0 as file:
+with open(import_file, "r") as file:
 
 Here I use a ‘with’ statement with the .open() function that includes an “r” argument to signal I want to read. The .read() function converts it to a string and I applied it to the file variable. I also assigned the string output of this method to the variable “ip_addresses”.
