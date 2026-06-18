@@ -16,4 +16,8 @@ The second line is just another variable with a list of necessary IP's to comple
 
 with open(import_file, "r") as file:
 
-Here I use a ‘with’ statement with the .open() function that includes an “r” argument to signal I want to read. The .read() function converts it to a string and I applied it to the file variable. I also assigned the string output of this method to the variable “ip_addresses”.
+Here I use a ‘with’ statement with the .open() function that includes an “r” argument to signal I want to read. 
+
+ip_addresses = file.read()
+
+The .read() function converts it to a string and I applied it to the file variable. I also assigned the string output of this method to the variable “ip_addresses”.
